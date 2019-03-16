@@ -40,7 +40,7 @@
       <key>Arguments</key>
       <dict>
         <key>url</key>
-        <stringhttps://cryptomator.org/downloads/</string>
+        <string>https://cryptomator.org/downloads/</string>
         <key>re_pattern</key>
         <string>(https:\/\/.*Cryptomator-[\d\.]+\.dmg)</string>
         <key>result_output_var_name</key>
