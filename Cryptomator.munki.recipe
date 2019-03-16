@@ -66,7 +66,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_path</key>
-				<string>%pathname%</string>
+				<string>%pathname%/Cryptomator/Cryptomator.app</string>
 			</dict>
 		</dict>
 		<dict>
