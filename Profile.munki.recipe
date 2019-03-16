@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string></string>
+	<key>Identifier</key>
+	<string>com.github.averell23.autopkg_munki.SSHTunnelManager</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>SomeProfile</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>stable</string>
+			</array>
+			<key>category</key>
+			<string>Profiles</string>
+			<key>description</key>
+			<string>This is a profile</string>
+			<key>developer</key>
+			<string>gut.org gAG</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Processor</key>
+			<string>MunkiImporter</string>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>profiles/%NAME%.mobileconfig</string>
+				<key>repo_subdirectory</key>
+        <string>profiles</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
