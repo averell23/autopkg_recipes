@@ -42,7 +42,7 @@
         <key>url</key>
         <stringhttps://cryptomator.org/downloads/</string>
         <key>re_pattern</key>
-        <string>(https://.*Cryptomator-[\d\.]+\.dmg)</string>
+        <string>(https:\/\/.*Cryptomator-[\d\.]+\.dmg)</string>
         <key>result_output_var_name</key>
         <string>download_url</string>
       </dict>
