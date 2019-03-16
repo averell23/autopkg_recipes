@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string></string>
 	<key>Identifier</key>
-	<string>com.github.averell23.autopkg_munki.SSHTunnelManager</string>
+	<string>com.github.averell23.autopkg_munki.Inkscape922</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -23,9 +23,9 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>description</key>
-			<string>SSH Tunnel Manager is a macOS application to manage your SSH tunnels. If you don't know what that is, quite honestly, maybe you don't need SSH Tunnel Manager, but if you appreciate the power of connecting together two networks using the SSH protocol, then STM is for you.</string>
+			<string>Whether you are an illustrator, designer, web designer or just someone who needs to create some vector imagery, Inkscape is for you!</string>
 			<key>developer</key>
-			<string>Tynsoe</string>
+			<string>inkscape.org</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
