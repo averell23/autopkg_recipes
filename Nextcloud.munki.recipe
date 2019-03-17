@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-   <dict>
-      <key>Description</key>
-      <string>Downloads the latest version of Nextcloud installer package and renames the package.</string>
-      <key>Identifier</key>
-      <string>com.github.averell23.autpkg_recipes.munki.nextcloud</string>
-      <key>Input</key>
-      <dict>
-         <key>NAME</key>
-         <string>Nextcloud</string>
-         <key>MUNKI_REPO_SUBDIR</key>
-     		<string>apps</string>
-     		<key>MUNKI_CATEGORY</key>
-     		<string>Internet</string>
-     		<key>pkginfo</key>
-     		<dict>
-     			<key>catalogs</key>
-     			<array>
-     				<string>stable</string>
-     			</array>
-     			<key>category</key>
-     			<string>%MUNKI_CATEGORY%</string>
-     			<key>description</key>
-     			<string>We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. We are Nextcloud.</string>
-     			<key>developer</key>
-     			<string>Nextcloud GmbH</string>
-     			<key>name</key>
-     			<string>%NAME%</string>
-     			<key>unattended_install</key>
-     			<true/>
-      </dict>
-      <key>MinimumVersion</key>
-      <string>1.0.0</string>
-      <key>ParentRecipe</key>
-      <string>com.github.andredb90.pkg.nextcloud</string>
-      <key>Process</key>
-      <array>
-    		<dict>
-    			<key>Processor</key>
-    			<string>MunkiImporter</string>
-    			<key>Arguments</key>
-    			<dict>
-    				<key>pkg_path</key>
-    				<string>%pkg_path%</string>
-    				<key>repo_subdirectory</key>
-            <string>%MUNKI_REPO_SUBDIR%</string>
-    			</dict>
-    		</dict>
-      </array>
-   </dict>
+<dict>
+  <key>Description</key>
+  <string>Downloads the latest version of Nextcloud installer package and renames the package.</string>
+  <key>Identifier</key>
+  <string>com.github.averell23.autpkg_recipes.munki.nextcloud</string>
+  <key>Input</key>
+  <dict>
+    <key>NAME</key>
+    <string>Nextcloud</string>
+    <key>MUNKI_REPO_SUBDIR</key>
+    <string>apps</string>
+    <key>MUNKI_CATEGORY</key>
+    <string>Internet</string>
+    <key>pkginfo</key>
+    <dict>
+      <key>catalogs</key>
+ 			<array>
+ 				<string>stable</string>
+ 			</array>
+ 			<key>category</key>
+ 			<string>%MUNKI_CATEGORY%</string>
+ 			<key>description</key>
+ 			<string>We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. We are Nextcloud.</string>
+ 			<key>developer</key>
+ 			<string>Nextcloud GmbH</string>
+ 			<key>name</key>
+ 			<string>%NAME%</string>
+ 			<key>unattended_install</key>
+ 			<true/>
+    </dict>
+  </dict>
+  <key>MinimumVersion</key>
+  <string>1.0.0</string>
+  <key>ParentRecipe</key>
+  <string>com.github.andredb90.pkg.nextcloud</string>
+  <key>Process</key>
+  <array>
+  	<dict>
+  		<key>Processor</key>
+  		<string>MunkiImporter</string>
+  		<key>Arguments</key>
+  		<dict>
+  			<key>pkg_path</key>
+  			<string>%pkg_path%</string>
+  			<key>repo_subdirectory</key>
+         <string>%MUNKI_REPO_SUBDIR%</string>
+  		</dict>
+  	</dict>
+  </array>
+</dict>
 </plist>
