@@ -19,11 +19,11 @@
 				<string>stable</string>
 			</array>
 			<key>category</key>
-			<string>Profiles</string>
+			<string>Utilities</string>
 			<key>description</key>
 			<string>This is an app</string>
 			<key>developer</key>
-			<string>gut.org gAG</string>
+			<string>averell23</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
