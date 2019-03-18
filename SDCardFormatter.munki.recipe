@@ -54,8 +54,11 @@
     <dict>
       <key>Processor</key>
       <string>FileFinder</string>
-			<key>pattern</key>
-			<string>SDCardFormatterv5_Mac/*.mpkg</string>
+			<key>Arguments</key>
+			<dict>
+				<key>pattern</key>
+				<string>SDCardFormatterv5_Mac/*.mpkg</string>
+			</dict>
     </dict>
 		<dict>
 			<key>Processor</key>
