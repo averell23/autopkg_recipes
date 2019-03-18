@@ -50,8 +50,11 @@
     <dict>
       <key>Processor</key>
       <string>Unarchiver</string>
-			<key>archive_format</key>
-			<string>zip</string>
+			<key>Arguments</key>
+			<dict>
+				<key>archive_format</key>
+				<string>zip</string>
+			</dict>
     </dict>
 		<dict>
 			<key>Processor</key>
