@@ -41,6 +41,8 @@
   	<dict>
       <key>Prcocessor</key>
       <key>EndOfCheckPhase</key>
+    </dict>
+    <dict>
   		<key>Processor</key>
   		<string>MunkiImporter</string>
   		<key>Arguments</key>
