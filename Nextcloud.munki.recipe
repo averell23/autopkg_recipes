@@ -39,6 +39,8 @@
   <key>Process</key>
   <array>
   	<dict>
+      <key>Prcocessor</key>
+      <key>EndOfCheckPhase</key>
   		<key>Processor</key>
   		<string>MunkiImporter</string>
   		<key>Arguments</key>
