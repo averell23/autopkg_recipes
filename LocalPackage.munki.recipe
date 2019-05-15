@@ -32,17 +32,22 @@
 	</dict>
 	<key>Process</key>
 	<array>
+    <dict>
+      <key>Processor</key>
+      <string>MunkiInfoCreator</string>
+      <key>Arguments</key>
+      <dict>
+				<key>pkg_path</key>
+				<string>local_packages/%FILE%</string>
+      </dict>
+    </dict>
 		<dict>
 			<key>Processor</key>
 			<string>MunkiImporter</string>
 			<key>Arguments</key>
 			<dict>
-				<key>pkg_path</key>
-				<string>local_packages/%FILE%</string>
 				<key>repo_subdirectory</key>
         <string>local_apps</string>
-        <key>version_comparison_key</key>
-        <string>1.0</string>
 			</dict>
 		</dict>
 		<dict>
