@@ -41,8 +41,6 @@
 				<string>local_packages/%FILE%</string>
 				<key>repo_subdirectory</key>
         <string>local_apps</string>
-        <key>version_comparison_key</key>
-        <string>1.0</string>
 			</dict>
 		</dict>
 		<dict>
