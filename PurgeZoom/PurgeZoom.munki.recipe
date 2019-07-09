@@ -12,6 +12,10 @@
 		<string>apps</string>
 		<key>MUNKI_CATEGORY</key>
 		<string>Utilities</string>
+		<key>VERSION</key>
+		<string>0.0.1</string>
+		<key>PKG_ID</key>
+		<string>org.github.averell23.purgezoom</string>
 		<key>NAME</key>
 		<string>PurgeZoom</string>
 		<key>pkginfo</key>
