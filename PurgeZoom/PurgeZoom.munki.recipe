@@ -16,6 +16,8 @@
 		<string>0.0.1</string>
 		<key>PKG_ID</key>
 		<string>org.github.averell23.purgezoom</string>
+		<key>RECIPE_DIR</key>
+		<string>%RECIPE_REPO_DIR%/com.github.averell23.autopkg_recipes/PurgeZoom</string>
 		<key>NAME</key>
 		<string>PurgeZoom</string>
 		<key>pkginfo</key>
@@ -46,11 +48,11 @@
         <key>pkg_request</key>
         <dict>
           <key>pkgroot</key>
-          <string>./payload</string>
+          <string>%RECIPE_DIR%/payload</string>
           <key>scripts</key>
-          <string>./scripts</string>
+          <string>%RECIPE_DIR%/scripts</string>
           <key>pkgdir</key>
-          <string>./build</string>
+          <string>%RECIPE_DIR%/build</string>
           <key>pkgname</key>
           <string>%NAME%-%VERSION%</string>
           <key>id</key>
