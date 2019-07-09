@@ -10,7 +10,7 @@ fi
 rm -rf "$TARGETVOL/Applications/zoom.us.app/"
 
 # Purge the localhost daemons
-for zoomdir in `ls -d "$3/Users/*/.zoomus"` ; do
+for zoomdir in `ls -d "$3"/Users/*/.zoomus` ; do
   rm -rf  $zoomdir
 done
 
