@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if [ "$3" == "/" ]; then
+    TARGETVOL=""
+else
+    TARGETVOL="$3"
+fi
+
+# Purge the main app
+rm -rf "$TARGETVOL/Applications/zoom.us.app/"
+
+# Purge the localhost daemons
+for zoomdir in `ls -d "$3/Users/*/.zoomus"` ; do
+  rm -rf  $zoomdir
+done
+
+
+if [ "$3" == "/" ]; then
+  # Kill all running Zoom opening deamons if running from the main disk
+  /usr/bin/killall -9 ZoomOpener
+fi
