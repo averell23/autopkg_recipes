@@ -46,11 +46,11 @@
         <key>pkg_request</key>
         <dict>
           <key>pkgroot</key>
-          <string>%RECIPE_DIR%/payload</string>
+          <string>./payload</string>
           <key>scripts</key>
-          <string>%RECIPE_DIR%/scripts</string>
+          <string>./scripts</string>
           <key>pkgdir</key>
-          <string>%RECIPE_DIR%/build</string>
+          <string>./build</string>
           <key>pkgname</key>
           <string>%NAME%-%VERSION%</string>
           <key>id</key>
