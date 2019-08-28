@@ -5,15 +5,15 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.1.2 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Imaging Edge Remote from Sony.</string>
+	<string>Downloads the latest version of Imaging Edge from Sony.</string>
 	<key>Identifier</key>
-	<string>averell23.download.ImagingEdgeRemote</string>
+	<string>averell23.download.ImagingEdge</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
 		<string>http://ids.update.sony.net/IDC/RXbW3ux0HM/IE200_1908a.dmg</string>
 		<key>NAME</key>
-		<string>ImagingEdgeRemote</string>
+		<string>ImagingEdge</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
@@ -79,7 +79,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/payload/Imaging Edge/Remote.app/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/payload/Imaging Edge/Viewer.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>

@@ -5,20 +5,20 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.1.2 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Remote and imports it into Munki.</string>
+	<string>Downloads the latest version of Imaging Edge and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>averell23.munki.ImagingEdgeRemote</string>
+	<string>averell23.munki.ImagingEdge</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>ImagingEdgeRemote</string>
+		<string>ImagingEdge</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>Remote.app</string>
+				<string>Viewer.app</string>
 			</array>
 			<key>catalogs</key>
 			<array>
@@ -29,7 +29,7 @@
 			<key>developer</key>
 			<string>Sony Imaging Products &amp; Solutions Inc.</string>
 			<key>display_name</key>
-			<string>Imaging Edge Remote</string>
+			<string>Imaging Edge</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -39,7 +39,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>averell23.download.ImagingEdgeRemote</string>
+	<string>averell23.download.ImagingEdge</string>
 	<key>Process</key>
 	<array>
 		<dict>
