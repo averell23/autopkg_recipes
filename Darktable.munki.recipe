@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Description</key>
+  <string>Builds a munki package of darktable</string>
+  <key>Identifier</key>
+  <string>com.github.averell23.autpkg_recipes.munki.darktable</string>
+  <key>Input</key>
+  <dict>
+    <key>NAME</key>
+    <string>Darktable</string>
+    <key>MUNKI_REPO_SUBDIR</key>
+    <string>apps</string>
+    <key>MUNKI_CATEGORY</key>
+    <string>Media</string>
+    <key>pkginfo</key>
+    <dict>
+      <key>catalogs</key>
+ 			<array>
+ 				<string>stable</string>
+ 			</array>
+ 			<key>category</key>
+ 			<string>%MUNKI_CATEGORY%</string>
+ 			<key>description</key>
+ 			<string>darktable is an open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.</string>
+ 			<key>developer</key>
+ 			<string>darktable</string>
+ 			<key>name</key>
+ 			<string>%NAME%</string>
+ 			<key>unattended_install</key>
+ 			<true/>
+    </dict>
+  </dict>
+  <key>MinimumVersion</key>
+  <string>1.0.0</string>
+  <key>ParentRecipe</key>
+  <string>darktable.pkg.recipe</string>
+  <key>Process</key>
+  <array>
+  	<dict>
+  		<key>Processor</key>
+  		<string>MunkiImporter</string>
+  		<key>Arguments</key>
+  		<dict>
+  			<key>pkg_path</key>
+  			<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
+  			<key>repo_subdirectory</key>
+         <string>%MUNKI_REPO_SUBDIR%</string>
+  		</dict>
+  	</dict>
+  </array>
+</dict>
+</plist>
