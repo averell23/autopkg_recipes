@@ -34,26 +34,13 @@
 	</dict>
 	<key>Process</key>
 	<array>
-    <dict>
-      <key>Processor</key>
-      <string>URLTextSearcher</string>
-      <key>Arguments</key>
-      <dict>
-        <key>url</key>
-        <string>https://cryptomator.org/downloads/</string>
-        <key>re_pattern</key>
-        <string>(https:\/\/.*Cryptomator-[\d\.]+\.dmg)</string>
-        <key>result_output_var_name</key>
-        <string>download_url</string>
-      </dict>
-    </dict>
 		<dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
 			<key>Arguments</key>
 			<dict>
 				<key>url</key>
-				<string>%download_url%</string>
+				<string>https://dl.bintray.com/cryptomator/cryptomator/1.5.8/Cryptomator-1.5.8.dmg</string>
 			</dict>
 		</dict>
 		<dict>
