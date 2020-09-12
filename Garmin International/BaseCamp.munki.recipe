@@ -29,7 +29,7 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Basecamp is a web-based project collaboration tool that allows groups of people to share files, meet deadlines, assign tasks, and centralize feedback.</string>
+			<string>BaseCamp is a 3D mapping application that allows you to transfer Garmin Custom Maps, BirdsEye Imagery, waypoints, tracks, and routes between your Mac and Garmin device. It allows you to manage your data on practically all Garmin map products, but topographic maps are required for 3-D rendering..</string>
 			<key>developer</key>
 			<string>Garmin International</string>
 			<key>display_name</key>
