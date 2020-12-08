@@ -40,7 +40,7 @@
   <array>
   	<dict>
       <key>Processor</key>
-      <key>EndOfCheckPhase</key>
+      <string>EndOfCheckPhase</string>
     </dict>
     <dict>
   		<key>Processor</key>
